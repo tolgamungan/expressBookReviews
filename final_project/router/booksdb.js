@@ -1,5 +1,9 @@
 let books = {
-      1: {"author": "Chinua Achebe","title": "Things Fall Apart", "reviews": {} },
+      1: {"author": "Chinua Achebe","title": "Things Fall Apart", "reviews": {
+            isbn: 1,
+            username: "john",
+            review: "This is an incredibly powerful and poignant book that captures the struggles and complexities of African culture and identity. A must-read for anyone interested in African literature."
+          } },
       2: {"author": "Hans Christian Andersen","title": "Fairy tales", "reviews": {} },
       3: {"author": "Dante Alighieri","title": "The Divine Comedy", "reviews": {} },
       4: {"author": "Unknown","title": "The Epic Of Gilgamesh", "reviews": {} },
